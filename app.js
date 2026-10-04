@@ -12,7 +12,7 @@ if (tg) {
 }
 
 const ADMIN_ID = 2056107378;
-const ADMIN_CONTACT = 'https://t.me/quangbaong';
+const ADMIN_CONTACT = 'https://t.me/thiendetp';
 
 /* ── selectors ── */
 const $ = (id) => document.getElementById(id);
@@ -519,7 +519,7 @@ function showWebLoginGate() {
     gate.innerHTML = `
       <div class="wlg-card">
         <div class="wlg-logo">🛡️</div>
-        <h2>BANNEI MOD LQ</h2>
+        <h2>SUBIN MOD LQ</h2>
         <p>Mini App này chạy <b>bên trong Telegram</b>.</p>
         <div class="wlg-buttons">
           <a class="wlg-btn primary" href="https://t.me/">🤖 Mở Bot Telegram</a>
@@ -1681,8 +1681,8 @@ qsa('.set-card').forEach((card) => {
       try { tg?.openTelegramLink?.(ADMIN_CONTACT); } catch {}
       try { tg?.openLink?.(ADMIN_CONTACT); } catch {}
     } else if (a === 'donate') {
-      copyText('109874557013').then((ok) =>
-        toast(ok ? '📋 Đã copy STK: 109874557013 — VIETINBANK' : '🏦 STK: 109874557013 — VIETINBANK', 'success'));
+      copyText('0964074609').then((ok) =>
+        toast(ok ? '📋 Đã copy STK: 0964074609 — SHBBANK' : '🏦 STK: 0964074609 — SHBBANK', 'success'));
     } else if (a === 'reset') {
       const ok = await askConfirm({
         title: 'Đặt lại ứng dụng?',
@@ -1706,7 +1706,7 @@ qsa('.set-card').forEach((card) => {
       refreshSettingsLabels();
       toast('♻️ Đã reset sạch (giỏ + cache)', 'success');
     } else if (a === 'about') {
-      toast('BANNEI MOD LQ · Liquid Glass 7.0', 'info');
+      toast('SUBIN MOD LQ · Liquid Glass 7.0', 'info');
     }
   });
 });
