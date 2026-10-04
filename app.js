@@ -275,7 +275,7 @@ function showBotChat(clear) {
   // lời chào khi mở khung trống
   const box = $('botLog');
   if (box && !box.children.length) {
-    botLog('Xin chào! Mình là trợ lý BANNEI 🤖\nMọi tiến trình & file Mod sẽ hiện ngay tại đây.', null, 'bot');
+    botLog('Xin chào! Mình là trợ lý SUBIN 🤖\nMọi tiến trình & file Mod sẽ hiện ngay tại đây.', null, 'bot');
   }
   requestAnimationFrame(() => _scrollChatEnd(false));
 }
